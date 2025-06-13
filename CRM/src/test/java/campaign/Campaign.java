@@ -115,6 +115,7 @@ public class Campaign {
 			String msg =  hp.getToastMsg().getText();
 			Assert.assertEquals(msg,  "Campaign "+campaignName+" Successfully ");
 			hp.getCloseToastMsg().click();
+			System.out.println("Added for modification");
 		}
 
 	}
