@@ -54,6 +54,7 @@ public class CreateCampaignWithStatusTest {
 		campaignPage.createCampaign(campaignName, targetSize);
 		campaignPage.getCampaignStatusTF().sendKeys(status);
 		campaignPage.getCreateCampaignSubmitBtn().click();
+		System.out.println("just for modification");
 
 		// Validation
 		wLib.waitforwebelemnttoload(driver, hp.getToastMsg());
